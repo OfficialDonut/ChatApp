@@ -1,0 +1,39 @@
+.button {
+    -fx-border-color: black;
+    -fx-border-radius: 2;
+    -fx-focus-traversable: false;
+}
+
+.combo-box {
+    -fx-border-color: black;
+    -fx-border-radius: 2;
+    -fx-focus-traversable: false;
+}
+
+.root {
+    -fx-font-size: 14;
+}
+
+.session-pane {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+.text-area {
+    -fx-border-color: black;
+}
+
+.text-area .scroll-pane {
+    -fx-vbar-policy: always;
+}
+
+.text-field {
+    -fx-border-color: black;
+    -fx-pref-width: 250;
+}
+
+.tool-bar {
+    -fx-border-color: black transparent transparent transparent;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
